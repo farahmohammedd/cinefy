@@ -1,6 +1,6 @@
-import 'package:cinefy_app/screens/favorites_screen.dart';
-import 'package:cinefy_app/screens/home_screen.dart';
-import 'package:cinefy_app/screens/movie_details_screen.dart';
+import 'package:cinefy_app/features/movies/presentation/screens/favorites_screen.dart';
+import 'package:cinefy_app/features/movies/presentation/screens/home_screen.dart';
+import 'package:cinefy_app/features/movies/presentation/screens/movie_details_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final routes = GoRouter(
