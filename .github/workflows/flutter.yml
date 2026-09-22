@@ -22,6 +22,9 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Create .env
+        run: echo "TMDB_API_KEY=" > .env
+
       - name: Analyze
         run: flutter analyze
 
